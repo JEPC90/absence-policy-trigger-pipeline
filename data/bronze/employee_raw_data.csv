@@ -1,0 +1,131 @@
+﻿employee_num,first_name,last_name,age,gender,job_title,department,division,location,line_manager,contract_type,fte,salary
+1001,technician,1,56,male,operational lead,mechanisms,operations,f3,9996,full time,1,14.01
+1002,technician,2,30,male,production operative,fal,operations,f3,9998,full time,1,12.71
+1003,technician,3,32,male,production operative,delivery centre,operations,f3,9999,full time,1,12.71
+1004,technician,4,60,male,production operative,fal,operations,f3,9998,full time,1,12.71
+1005,technician,5,25,male,production operative,stores assembly,operations,f3,9993,full time,1,12.71
+1006,technician,6,38,male,production operative,stores assembly,operations,f3,9993,full time,1,12.71
+1007,technician,7,56,male,production operative,monos,operations,f3,9995,full time,1,12.71
+100,technician,8,36,male,technical lead,stores assembly,operations,f3,9993,full time,1,13.01
+1009,technician,9,400,male,production operative,mechanisms,operations,f3,9996,full time,1,12.71
+1010,technician,10,28,male,operational lead,machine shop,operations,f1,,full time,1,14.01
+1011,technician,11,28,male,production operative,mechanisms,operations,f3,,full time,1,12.71
+1012,technician,12,41,male,technical lead,stores manufacturing,operations,f2,9992,full time,1,13.01
+1013,technician,13,53,male,production operative,monos,operations,f3,9995,full time,1,12.71
+1014,technician,14,57,male,production operative,fal,operations,f3,9998,full time,1,12.71
+1015,technician,15,41,male,production operative,fal,operations,f3,9998,full time,1,12.71
+1016,technician,16,28,Female,production operative,machine shop,operations,f1,9997,full time,1,12.71
+1017,technician,17,39,male,technical lead,stores manufacturing,operations,f4,9992,full time,1,13.01
+1018,technician,18,19,male,production operative,machine shop,operations,f1,9997,full time,1,12.71
+1019,technician,19,41,male,production operative,machine shop,operations,f1,9997,full time,1,12.71
+1020,technician,20,61,male,production operative,stores assembly,operations,f1,9993,full time,1,12.71
+1021,technician,21,47,male,production operative,stores assembly,operations,f1,9993,full time,1,12.71
+1022,technician,22,27,male,technical lead,stores assembly,operations,f3,9993,full time,1,13.01
+1023,technician,23,19,male,production operative,stores assembly,operations,f3,9993,full time,1,12.71
+1024,technician,24,38,Female,technical lead,stores assembly,operations,f3,9993,full time,1,13.01
+1025,technician,25,50,Female,production operative,monos,operations,f3,9995,full time,1,12.71
+1026,technician,26,29,male,production operative,stores assembly,operations,f3,9993,full time,1,12.71
+1027,technician,27,39,Female,technical lead,stores manufacturing,operations,f1,9992,full time,1,13.01
+1028,technician,28,18,female,production operative,delivery centre,operations,f3,9999,full time,1,12.71
+1029,technician,29,42,male,technical lead,stores assembly,operations,f3,9993,full time,1,13.01
+1030,technician,30,44,Female,technical lead,wiring,operations,f3,9991,full time,1,13.01
+1031,technician,31,59,male,operational lead,stores manufacturing,operations,f2,9992,full time,1,14.01
+1032,technician,32,45,Female,production operative,stores assembly,operations,f3,9993,full time,1,12.71
+1033,technician,33,33,Female,production operative,delivery centre,operations,f3,9999,full time,1,12.71
+1034,technician,34,32,male,operational lead,mechanisms,operations,f3,9996,full time,1,14.01
+1035,technician,35,64,male,production operative,delivery centre,operations,f3,9999,full time,1,12.71
+1036,technician,36,25,male,production operative,monos,operations,f3,9995,full time,1,12.71
+1037,technician,37,20,male,production operative,wiring,operations,f3,9991,full time,1,12.71
+1038,technician,38,54,Female,technical lead,stores manufacturing,operations,f4,9992,full time,1,13.01
+1039,technician,39,24,Female,production operative,stores assembly,operations,f3,9993,full time,1,12.71
+1040,technician,40,38,male,production operative,wiring,operations,f3,9991,full time,1,12.71
+1041,technician,41,26,male,production operative,wiring,operations,f3,9991,full time,1,12.71
+1042,technician,42,55,male,production operative,machine shop,operations,f1,9997,full time,1,12.71
+1043,technician,43,35,male,technical lead,fal,operations,f3,9998,full time,1,13.01
+1044,technician,44,21,male,production operative,stores manufacturing,operations,F4,9992,full time,1,12.71
+1045,technician,45,42,male,production operative,wiring,operations,f3,9991,full time,1,12.71
+1046,technician,46,31,Female,operational lead,stores manufacturing,operations,f2,9992,full time,1,14.01
+1047,technician,47,26,male,technical lead,machine shop,operations,f1,9997,full time,1,13.01
+1048,technician,48,43,male,production operative,delivery centre,operations,f3,9999,full time,1,12.71
+1049,technician,49,19,male,technical lead,fal,operations,f3,9998,full time,1,13.01
+1050,technician,50,37,male,production operative,wiring,operations,f3,9991,full time,1,12.71
+1051,technician,51,45,Female,production operative,wiring,operations,f3,9991,full time,1,12.71
+1052,technician,52,64,Female,technical lead,stores assembly,operations,f3,9993,full time,1,13.01
+1053,technician,53,24,male,technical lead,machine shop,operations,f1,9997,part time,0.8,13.01
+1054,technician,54,61,male,operational lead,fal,operations,f3,9998,full time,1,14.01
+1055,technician,55,25,male,technical lead,paint booth,operations,f3,9994,full time,1,13.01
+1056,technician,56,64,male,production operative,delivery centre,operations,f3,9999,full time,1,12.71
+1057,technician,57,52,male,production operative,machine shop,operations,f1,9997,full time,1,12.71
+1058,technician,58,48,male,technical lead,stores manufacturing,operations,f2,9992,full time,1,13.01
+1059,technician,59,34,male,production operative,machine shop,operations,f1,9997,full time,1,12.71
+1060,technician,60,61,female,technical lead,machine shop,operations,f3,9997,full time,1,13.01
+1061,technician,61,57,male,production operative,stores assembly,operations,f3,9993,full time,1,12.71
+1062,technician,62,21,Female,operational lead,stores manufacturing,operations,F4,9992,full time,1,14.01
+1063,technician,63,19,male,production operative,monos,operations,f3,9995,full time,1,12.71
+1064,technician,64,23,male,production operative,machine shop,operations,f1,9997,full time,1,12.71
+1065,technician,65,59,male,production operative,mechanisms,operations,f3,9996,full time,1,12.71
+1066,technician,66,21,Female,production operative,mechanisms,operations,f3,9996,full time,1,12.71
+1067,technician,67,46,male,production operative,fal,operations,f3,9998,part time,0.6,12.71
+1068,technician,68,35,male,production operative,stores manufacturing,operations,f1,9992,full time,1,12.71
+1069,technician,69,43,male,production operative,stores manufacturing,operations,f2,9992,part time,0.2,12.71
+1070,technician,70,61,male,production operative,monos,operations,f3,9995,full time,1,12.71
+1071,technician,71,51,female,production operative,wiring,operations,f3,9991,part time,0.6,12.71
+1072,technician,72,27,male,production operative,wiring,operations,f3,9991,full time,1,12.71
+1073,technician,73,53,male,production operative,wiring,operations,f3,9991,full time,1,12.71
+1074,technician,74,31,male,operational lead,stores assembly,operations,f3,9993,full time,1,14.01
+1075,technician,75,48,male,production operative,fal,operations,f3,9998,full time,1,12.71
+1076,technician,76,65,male,production operative,stores assembly,operations,f3,9993,full time,1,12.71
+1077,technician,77,32,Female,production operative,fal,operations,f3,9998,full time,1,12.71
+1078,technician,78,25,male,technical lead,fal,operations,f3,9998,full time,1,13.01
+1079,technician,79,31,male,production operative,delivery centre,operations,f3,9999,full time,1,12.71
+1080,technician,80,40,male,production operative,stores manufacturing,operations,f2,9992,full time,1,12.71
+1081,technician,81,57,male,production operative,stores assembly,operations,f3,9993,full time,1,12.71
+1082,technician,82,38,male,production operative,stores assembly,operations,f3,9993,full time,1,12.71
+1083,technician,83,33,male,production operative,wiring,operations,f3,9991,full time,1,12.71
+1084,technician,84,62,male,production operative,mechanisms,operations,f3,9996,full time,1,12.71
+1085,technician,85,35,male,production operative,stores assembly,operations,f3,9993,full time,1,12.71
+1086,technician,86,64,male,technical lead,stores assembly,operations,f3,9993,full time,1,13.01
+1087,technician,87,52,male,technical lead,monos,operations,f3,9995,full time,1,13.01
+1088,technician,88,43,male,production operative,stores assembly,operations,f3,9993,full time,1,12.71
+1089,technician,89,42,male,production operative,paint booth,operations,f3,9994,full time,1,12.71
+1090,technician,90,62,Female,technical lead,monos,operations,f3,9995,full time,1,13.01
+1091,technician,91,58,male,production operative,stores assembly,operations,f3,9993,full time,1,12.71
+1092,technician,92,46,male,production operative,stores assembly,operations,f3,9993,full time,1,12.71
+1093,technician,93,22,male,production operative,machine shop,operations,f1,9997,full time,1,12.71
+1094,technician,94,62,Female,production operative,stores manufacturing,operations,f4,9992,full time,1,12.71
+1095,technician,95,18,Female,technical lead,stores manufacturing,operations,f2,9992,part time,0.8,13.01
+1096,technician,96,42,male,operational lead,wiring,operations,f3,9991,full time,1,14.01
+1097,technician,97,24,male,production operative,machine shop,operations,f1,9997,full time,1,12.71
+1098,technician,98,26,Female,production operative,machine shop,operations,f1,9997,full time,1,12.71
+1099,technician,99,41,male,production operative,wiring,operations,f3,9991,full time,1,12.71
+1100,technician,100,18,male,production operative,stores manufacturing,operations,f2,9992,full time,1,12.71
+1101,technician,101,61,male,production operative,stores assembly,operations,f3,9993,full time,1,12.71
+1102,technician,102,25,male,production operative,wiring,operations,f3,9991,full time,1,12.71
+1103,technician,103,41,Female,technical lead,mechanisms,operations,f3,9996,full time,1,13.01
+1104,technician,104,28,Female,production operative,fal,operations,f3,9998,full time,1,12.71
+1105,technician,105,34,male,production operative,machine shop,operations,f1,9997,full time,1,12.71
+1106,technician,106,25,male,technical lead,stores assembly,operations,f3,9993,full time,1,13.01
+1107,technician,107,52,male,technical lead,fal,operations,f3,9998,full time,1,13.01
+1108,technician,108,52,male,production operative,stores assembly,operations,f3,9993,full time,1,12.71
+1109,technician,109,50,Female,production operative,fal,operations,f3,9998,part time,0.6,12.71
+1110,technician,110,22,Female,production operative,stores assembly,operations,f3,9993,full time,1,12.71
+1111,technician,111,59,male,production operative,stores assembly,operations,f3,9993,full time,1,12.71
+1112,technician,112,56,male,production operative,stores assembly,operations,f3,9993,full time,1,12.71
+1113,technician,113,58,male,technical lead,monos,operations,f3,9995,full time,1,13.01
+1114,technician,114,45,male,production operative,wiring,operations,f3,9991,full time,1,12.71
+1115,technician,115,24,Female,production operative,mechanisms,operations,f3,9996,full time,1,12.71
+1116,technician,116,26,male,production operative,machine shop,operations,f3,9997,full time,,12.71
+1117,technician,117,25,male,production operative,stores manufacturing,operations,f2,9992,full time,,12.71
+1118,technician,118,29,male,operational lead,stores manufacturing,operations,f2,9992,full time,,14.01
+1119,technician,119,51,male,technical lead,delivery centre,operations,f3,9999,full time,,13.01
+1120,technician,120,50,male,production operative,stores manufacturing,operations,f1,9992,full time,100,12.71
+1121,technician,121,,Male,Production 0perative,machineshop,operations,F1,9997,FT,1,12.71
+1122,technician,122,,Male,productionoperative,Stores Assembly,operations,F3,9993,FT,1,12.71
+1123,technician,123,,F,productionoperative,machineshop,operations,f-1,9997,FT,1,12.71
+1124,technician,124,fifty,M,PO,storesassembly,operations,f-3,9993,Full time,1,12.71
+1125,technician,125,,m,po,Machine Shop,operations,F1,9997,full Time,1,12.71
+,technician,126,61,male,production operative,fal,operations,f3,9998,full time,1,12.71
+,technician,127,57,male,production operative,machine shop,operations,f1,9997,full time,1,12.71
+,technician,128,39,male,production operative,stores assembly,operations,f3,9993,full time,1,12.71
+,technician,129,44,male,production operative,mechanisms,operations,f3,9996,full time,1,12.71
+EMP-130,technician,130,52,male,production operative,machine shop,operations,f1,9997,full time,1,12.71

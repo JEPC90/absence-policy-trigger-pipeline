@@ -1,0 +1,31 @@
+# Virtual Environment
+.venv/
+
+# Data Layers (Keep folders, ignore generated outputs)
+data/bronze/*
+!data/bronze/.gitkeep
+!data/bronze/attendance_raw_data.csv
+!data/bronze/employee_raw_data.csv
+
+data/silver/*
+!data/silver/.gitkeep
+
+data/quarantine/*
+!data/quarantine/.gitkeep
+
+data/gold/*
+!data/gold/.gitkeep
+
+# Logs & Generated Reports
+logs/*.log
+reports/*
+!reports/.gitkeep
+
+# Python Cache & VS Code Settings
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+
+# OS Metadata
+.DS_Store
