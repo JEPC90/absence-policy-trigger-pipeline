@@ -82,15 +82,45 @@ def evaluate_schema_gateway(df: pd.DataFrame, schema: dict, table_name: str) -> 
         has_reason = "absence_reason" in df.columns
         
         if has_start and has_finish and has_absent:
-            blank_times = df["start_time"].isnull() | df["finish_time"].isnull()
+            zero_time_placeholders = {"00:00:00", "0:00", "00:00", "none", ""}
+            
+            start_is_blank = (
+                df["start_time"].isnull() | 
+                df["start_time"].astype(str).str.strip().str.lower().isin(zero_time_placeholders)
+            )
+            finish_is_blank = (
+                df["finish_time"].isnull() | 
+                df["finish_time"].astype(str).str.strip().str.lower().isin(zero_time_placeholders)
+            )
+            blank_times = start_is_blank | finish_is_blank
+            
+        
             is_absent_y = df["absent"].astype(str).str.strip().str.lower().isin(["y", "true", "1", "yes"])
             
-            if has_reason:
-                not_approved_leave = df["absence_reason"].fillna("").astype(str).str.strip().str.lower() != "approved annual leave"
-            else:
+            valid_excused_reasons = {
+                    "approved_annual_leave",
+                    "minor_illness_(cold/flu)",
+                    "headaches/migraines",
+                    "back_pain",
+                    "acute/recurring_medical_conditions",
+                    "gastrointestinal_problems",
+                    "other_respiratory_conditions",
+                    "accident/injury_work_related",
+                    "accident/injury_non_work_related",
+                    "care_responsibilities",
+                    "musculoskeletal_problems",
+                    "stress_anxiety_depression_non_work_related",
+                    "stress_anxiety_depression_work_related", 
+                    "bereavement", 
+                    "maternity_leave", 
+                    "paternity_leave", 
+                    "training"
+                }
+            not_approved_leave = ~df["absence_reason"].fillna("").astype(str).str.strip().str.lower().isin(valid_excused_reasons)
+        else:
                 not_approved_leave = pd.Series(True, index=df.index)
             
-            invalid_mask |= (blank_times & is_absent_y & not_approved_leave)
+        invalid_mask |= (blank_times & is_absent_y & not_approved_leave)
 
     elif table_name == "Employee":
         if "employee_num" in df.columns:
